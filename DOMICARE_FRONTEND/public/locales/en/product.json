@@ -1,0 +1,41 @@
+{
+  "booking_status": {
+    "all": "All",
+    "pending": "Pending",
+    "accepted": "Consulting",
+    "success": "Success",
+    "failed": "Failed",
+    "rejected": "Rejected",
+    "cancelled": "Cancelled"
+  },
+  "sort_by": "Sort by",
+  "sort_by_name": "Name",
+  "sort_by_price": "Price",
+  "sort_by_rating": "Rating",
+  "cleaning_resource": "Cleaning resource",
+  "sort_by_discount": "Discount",
+  "sort_by_asc": "Low to high",
+  "sort_by_desc": "High to low",
+  "service_package": "Service package of",
+  "company_infor": "Our company specializes in providing industrial, domestic and disinfection services with a team of experienced staff, modern equipment and professional processes",
+  "learn_more_our_services": "Learn more about our services",
+  "rating_and_comment": "Review and evaluation",
+  "rating_count": "reviews",
+  "service_no_rating": "This service has no review",
+  "write_review": "Write review",
+  "send_review": "Send review",
+  "review_placeholder": "Share your experience...",
+  "payment": {
+    "success_title": "Consultation information sent successfully!",
+    "thank_you_message": "Domicare sincerely thanks you for trusting and sending us your information.",
+    "deposit_option_text": "During busy periods, to ensure the best service, you can",
+    "deposit_option_highlight": "optionally deposit 10%",
+    "deposit_option_suffix": "to reserve your spot.",
+    "refund_policy_prefix": "If there are any issues later, Domicare commits to a",
+    "refund_policy_highlight": "100%",
+    "deposit_button": "Deposit 10% to reserve",
+    "no_deposit_button": "No deposit",
+    "deposit_success_alert": "Thank you! Your deposit has been recorded. We will contact you as soon as possible!",
+    "no_deposit_alert": "Thank you! Your information has been recorded, however we may not be able to serve you if we are overloaded."
+  }
+}

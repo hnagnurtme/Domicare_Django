@@ -1,0 +1,89 @@
+import { GENDER_TYPE, ROLE_TYPE } from '../types/user.type'
+import { PaginationResponse } from './response.interface'
+
+export interface User {
+  _id?: string
+  id?: number
+  name?: string
+  email?: string
+  password?: string
+  phone?: string
+  address?: string
+  avatar?: string
+  googleId?: string
+  isActive?: boolean
+  dateOfBirth?: string
+  emailConfirmationToken?: string
+  createBy?: string
+  updateBy?: string
+  createAt?: string
+  updateAt?: string
+  roles?: role[]
+  emailConfirmed?: boolean
+  gender?: GENDER_TYPE
+  userTotalSuccessBookings?: number
+  userTotalFailedBookings?: number
+  saleTotalBookings?: number
+  saleSuccessPercent?: number
+}
+export interface UserUpdate {
+  name?: string
+  phone?: string
+  imageId?: number
+  addres?: string
+  dateOfBirth?: Date
+  gender?: GENDER_TYPE
+  newPassword?: string
+  oldPassword?: string
+}
+export interface UserRequest {
+  email: string
+  password: string
+  name: string
+  phone: string
+  address: string
+  avatar: string
+  gender: GENDER_TYPE
+  dateOfBirth: string
+  roleId: number
+}
+export interface UserUpdateRequest extends Omit<UserUpdate, 'dateOfBirth'> {
+  dateOfBirth?: string
+}
+
+export type role = {
+  id?: number
+  name?: ROLE_TYPE
+  description?: string
+  active?: boolean
+  createBy?: string
+  updateBy?: string
+  createAt?: string
+  updateAt?: string
+}
+
+export interface UserResponse {
+  meta: PaginationResponse
+  data: User[]
+}
+
+export interface UserListConfig {
+  page?: number
+  size?: number
+  searchRoleName?: ROLE_TYPE
+  searchName?: string
+  sortBy?: 'userTotalSuccessBookings' | 'userTotalFailedBookings' | 'saleTotalBookings' | 'saleSuccessPercent'
+  sortDirection?: 'asc' | 'desc'
+}
+export interface roleAddRequest {
+  userId: number
+  roleIds: number[]
+}
+export interface MiniSale {
+  id?: number
+  name?: string
+  avatar?: string
+  email?: string
+  totalSalePrice?: number
+  totalSuccessBookingPercent?: number
+}

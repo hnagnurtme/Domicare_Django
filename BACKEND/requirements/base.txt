@@ -1,0 +1,48 @@
+# Django Core
+Django==5.0.1
+djangorestframework==3.14.0
+django-environ==0.11.2
+
+# Database với SSL support
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+PyJWT==2.8.0
+social-auth-app-django==5.4.0
+google-auth>=2.26.1
+google-auth-oauthlib==1.2.0
+
+# Security
+django-cors-headers==4.3.1
+cryptography==41.0.7
+
+# Validation
+pydantic==2.5.3
+
+# External Services
+cloudinary==1.36.0
+requests==2.31.0
+
+# Async Tasks
+celery==5.3.4
+redis==5.0.1
+
+# API Documentation
+drf-spectacular==0.27.0
+
+# Utils
+python-dotenv==1.0.0
+
+# Type Hints & Stubs
+django-stubs==4.2.7
+djangorestframework-stubs==3.14.5
+types-requests==2.31.0.10
+
+# bcrypt
+bcrypt==4.1.2
+
+# Validation
+pydantic==2.5.3
+email-validator>=2.1.0

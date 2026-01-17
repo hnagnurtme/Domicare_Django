@@ -1,0 +1,30 @@
+services:
+  # Backend Service (Spring Boot)
+  backend:
+    build:
+      context: ./DomiCare
+      dockerfile: Dockerfile
+    container_name: domicare-backend
+    ports:
+      - "8081:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+    networks:
+      - domicare-network
+    restart: unless-stopped
+
+  # Frontend Service (React + Vite) - Static files served by nginx
+  frontend:
+    build:
+      context: ./DOMICARE_FRONTEND
+      dockerfile: Dockerfile
+    container_name: domicare-frontend
+    ports:
+      - "5173:80"
+    networks:
+      - domicare-network
+    restart: unless-stopped
+
+networks:
+  domicare-network:
+    driver: bridge

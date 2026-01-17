@@ -1,0 +1,12 @@
+{
+  "select_picture": "Chọn ảnh",
+  "update_profile_success": "Cập nhật thông tin thành công",
+  "update_profile_error": "Cập nhật thông tin thất bại",
+  "update_password_success": "Cập nhật mật khẩu thành công",
+  "update_password_error": "Cập nhật mật khẩu thất bại",
+  "accept_booking_success": "Nhận tư vấn đơn đặt hàng thành công",
+  "reject_booking_success": "Từ chối tư vấn đơn đặt hàng thành công",
+  "booking_has_sale": "Đơn hàng này đã có người tư vấn",
+  "error_reject_booking": "Chỉ được từ chối đơn hàng có trạng thái chờ tư vấn",
+  "cannot_edit_booking": "Không thể chỉnh sửa đơn đặt hàng đã hoàn thành"
+}

@@ -1,0 +1,21 @@
+{
+  "settings": "Settings",
+  "language": "Language",
+  "theme": "Theme",
+  "dark": "Dark",
+  "light": "Light",
+  "system": "System",
+  "language_placeholder": "Select language",
+  "language_description": "Select language for the application.",
+  "theme_description": "Select theme for the application.",
+  "history_title": "History",
+  "history_description": "View history service and status of your account.",
+  "profile_title": "My profile",
+  "profile_description": "Manage your profile information to secure your account.",
+  "edit_profile": "Edit profile",
+  "account": "Account",
+  "history": "History service",
+  "system_settings": "System settings",
+  "settings_description": "Customize the application interface and other related settings.",
+  "profile_settings": "Profile settings"
+}

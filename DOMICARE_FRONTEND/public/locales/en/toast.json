@@ -1,0 +1,12 @@
+{
+  "select_picture": "Select picture",
+  "update_profile_success": "Update profile successfully",
+  "update_profile_error": "Update profile failed",
+  "update_password_success": "Update password successfully",
+  "update_password_error": "Update password failed",
+  "accept_booking_success": "Accept booking successfully",
+  "reject_booking_success": "Reject booking successfully",
+  "booking_has_sale": "This order has been consulted.",
+  "error_reject_booking": "Only reject bookings with pending status",
+  "cannot_edit_booking": "Cannot edit completed booking"
+}

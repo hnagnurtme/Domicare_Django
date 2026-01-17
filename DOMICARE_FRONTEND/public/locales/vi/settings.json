@@ -1,0 +1,21 @@
+{
+  "settings": "Cài đặt",
+  "language": "Ngôn ngữ",
+  "theme": "Chủ đề",
+  "dark": "Tối",
+  "light": "Sáng",
+  "system": "Hệ thống",
+  "language_placeholder": "Chọn ngôn ngữ",
+  "language_description": "Lựa chọn ngôn ngữ cho ứng dụng.",
+  "theme_description": "Chọn chế độ hiển thị cho trang web của bạn.",
+  "history_title": "Lịch sử dịch vụ",
+  "history_description": "Xem lịch sử dịch vụ và trạng thái các dịch vụ tài khoản của bạn.",
+  "profile_title": "Hồ sơ của tôi",
+  "profile_description": "Quản lý thông tin hồ sơ để bảo mật tài khoản",
+  "edit_profile": "Sửa hồ sơ",
+  "account": "Tài khoản",
+  "history": "Lịch sử dịch vụ",
+  "system_settings": "Cài đặt hệ thống",
+  "settings_description": "Tùy chỉnh giao diện của ứng dụng và các cài đặt khác có liên quan.",
+  "profile_settings": "Cài đặt cá nhân"
+}
